@@ -1,0 +1,64 @@
+/* Basic page setup */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+/* The main container */
+#app-container {
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Sections for each API activity */
+.api-box {
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 10px;
+    /* transition makes colour changes look smooth */
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Button styling */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling the text returned from APIs */
+p {
+    font-style: italic;
+    color: #444;
+    min-height: 40px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+}
